@@ -74,3 +74,6 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.doupi.gegeda.controller
+
+ai:
+  apiKey: 269aeb6434ec4a2bff268aed748bac12.yaYnTgSeKcfnwihA
