@@ -16,8 +16,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 /**
  * 请求响应日志 AOP
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://doupi.icu">编程导航知识星球</a>
+ * @author 豆皮
  **/
 @Aspect
 @Component

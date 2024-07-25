@@ -19,8 +19,7 @@ import java.util.Map;
 /**
  * 自定义测评类应用评分策略
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
+* @author 豆皮
  */
 @ScoringStrategyConfig(appType = 1, scoringStrategy = 0)
 public class CustomTestScoringStrategy implements ScoringStrategy {

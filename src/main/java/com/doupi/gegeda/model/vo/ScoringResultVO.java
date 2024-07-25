@@ -14,8 +14,7 @@ import java.util.List;
 /**
  * 评分结果视图
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
+* @author 豆皮
  */
 @Data
 public class ScoringResultVO implements Serializable {

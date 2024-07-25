@@ -8,8 +8,7 @@ import java.util.List;
 /**
  * 更新评分结果请求
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
+* @author 豆皮
  */
 @Data
 public class ScoringResultUpdateRequest implements Serializable {

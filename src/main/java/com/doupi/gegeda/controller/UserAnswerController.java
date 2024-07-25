@@ -1,5 +1,6 @@
 package com.doupi.gegeda.controller;
 
+import cn.hutool.core.util.IdUtil;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.doupi.gegeda.annotation.AuthCheck;
@@ -34,8 +35,7 @@ import java.util.List;
 /**
  * 用户答案接口
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
+* @author 豆皮
  */
 @RestController
 @RequestMapping("/userAnswer")
@@ -270,4 +270,8 @@ public class UserAnswerController {
     }
 
     // endregion
+    @GetMapping("/generate/id")
+    public BaseResponse<Long> generateUserAnswerId() {
+        return ResultUtils.success(IdUtil.getSnowflakeNextId());
+    }
 }

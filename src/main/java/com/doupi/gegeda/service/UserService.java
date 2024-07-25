@@ -12,8 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 用户服务
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://doupi.icu">编程导航知识星球</a>
+ * @author 豆皮
  */
 public interface UserService extends IService<User> {
 

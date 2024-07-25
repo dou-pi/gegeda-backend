@@ -10,11 +10,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 /**
  * 主类（项目启动入口）
  *
- * @author <a href="https://github.com/lidoupi">程序员豆皮</a>
- * @from <a href="https://doupi.icu">编程导航知识星球</a>
+ * @author 豆皮
  */
-// todo 如需开启 Redis，须移除 exclude 中的内容
-@SpringBootApplication(exclude = {RedisAutoConfiguration.class})
+//  如需开启 Redis，须移除 exclude 中的内容(exclude = {RedisAutoConfiguration.class})
+@SpringBootApplication
 @MapperScan("com.doupi.gegeda.mapper")
 @EnableScheduling
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
